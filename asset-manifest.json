@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/burnhams-catering/static/css/main.073c9b0a.css",
+    "main.js": "/burnhams-catering/static/js/main.a8ab005e.js",
+    "static/js/787.b4a9067d.chunk.js": "/burnhams-catering/static/js/787.b4a9067d.chunk.js",
+    "static/media/logo.svg": "/burnhams-catering/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/burnhams-catering/index.html",
+    "main.073c9b0a.css.map": "/burnhams-catering/static/css/main.073c9b0a.css.map",
+    "main.a8ab005e.js.map": "/burnhams-catering/static/js/main.a8ab005e.js.map",
+    "787.b4a9067d.chunk.js.map": "/burnhams-catering/static/js/787.b4a9067d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a8ab005e.js"
+  ]
+}
