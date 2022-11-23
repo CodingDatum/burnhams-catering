@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    height: 10%;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navbar h1{
+    font-size: 1.6rem;
+}
+
+.hamburger{
+    height: 1.2rem;
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}

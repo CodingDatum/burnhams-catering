@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React , { useState } from 'react';
+import styles from './App.module.css';
+import Main from './components/Main';
 
-function App() {
+import Navbar from './components/Navbar';
+import StaffPage from './components/StaffPage';
+
+const App = props => {
+
+  // have a useState for navbar too! and shall we make it a column or an extension of the navbar that already exists
+
+  const [staffIsOpen, setStaffIsOpen] = useState(false);
+  const [eventsIsOpen, setEventsIsOpen] = useState(false);
+
+  const renderStaffPage = () => {
+    setStaffIsOpen(true);
+  }
+
+  const closeStaffPage = () => {
+    setStaffIsOpen(false)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      {staffIsOpen && <StaffPage closeStaffPage={closeStaffPage} />}
+      <div className={styles.main}>
+        <Navbar />
+        <Main renderStaffPage={renderStaffPage} />
+      </div>
+    </React.Fragment>
   );
 }
 
