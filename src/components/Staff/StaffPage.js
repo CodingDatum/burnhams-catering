@@ -13,7 +13,7 @@ const StaffPage = props => {
     return (
         <div className={styles["staff-page"]}>
             <h2>Testing Staff Page</h2>
-            <Buttons onClick={closeStaffPage}>back</Buttons>
+            <Buttons onClick={closeStaffPage} buttonText="back" />
         </div>
     )
 }
