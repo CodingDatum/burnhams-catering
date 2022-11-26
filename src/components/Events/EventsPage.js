@@ -1,6 +1,6 @@
 import React from 'react'
-
-import styles from './EventsPage.module.css';
+import Buttons from '../UI/Buttons/Buttons';
+import MainTab from '../UI/MainTab/MainTab';
 
 const EventsPage = props => {
 
@@ -9,10 +9,10 @@ const EventsPage = props => {
     }
 
     return (
-        <div className={styles["events-page"]}>
+        <MainTab>
             <h2>Testing Staff Page</h2>
-            <button onClick={closeEventsPage}>back</button>
-        </div>
+            <Buttons onClick={closeEventsPage} buttonText="back" />
+        </MainTab>
     )
 }
 

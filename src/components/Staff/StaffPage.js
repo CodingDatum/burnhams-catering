@@ -1,8 +1,7 @@
 import React from 'react';
 
 import Buttons from '../UI/Buttons/Buttons';
-
-import styles from './StaffPage.module.css'
+import MainTab from '../UI/MainTab/MainTab';
 
 const StaffPage = props => {
 
@@ -11,10 +10,10 @@ const StaffPage = props => {
     }
 
     return (
-        <div className={styles["staff-page"]}>
+        <MainTab>
             <h2>Testing Staff Page</h2>
             <Buttons onClick={closeStaffPage} buttonText="back" />
-        </div>
+        </MainTab>
     )
 }
 
