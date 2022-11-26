@@ -1,6 +1,10 @@
 .staff-page{
     height: 100vh;
     width: 100vw;
-    background-color: blue;
-    color: white;
+    padding: 2rem 1rem;
+    color: #007DE3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
