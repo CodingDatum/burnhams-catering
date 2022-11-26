@@ -8,12 +8,16 @@ const Main = props => {
         props.renderStaffPage()
     }
 
+    const eventsSectionHandler = () => {
+        props.renderEventsPage()
+    }
+
     return(
         <div className={styles.main}>
             <h2>Main Page</h2>
             <div className={styles["main-bottom-buttons"]}>
                 <button onClick={staffSectionHandler}>Staff</button>
-                <button>Events</button>
+                <button onClick={eventsSectionHandler}>Events</button>
             </div>
         </div>
     )
