@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/burnhams-catering/static/css/main.9ddac1fd.css",
-    "main.js": "/burnhams-catering/static/js/main.a7642399.js",
+    "main.css": "/burnhams-catering/static/css/main.358913a2.css",
+    "main.js": "/burnhams-catering/static/js/main.bf281879.js",
     "static/js/787.b4a9067d.chunk.js": "/burnhams-catering/static/js/787.b4a9067d.chunk.js",
     "index.html": "/burnhams-catering/index.html",
-    "main.9ddac1fd.css.map": "/burnhams-catering/static/css/main.9ddac1fd.css.map",
-    "main.a7642399.js.map": "/burnhams-catering/static/js/main.a7642399.js.map",
+    "main.358913a2.css.map": "/burnhams-catering/static/css/main.358913a2.css.map",
+    "main.bf281879.js.map": "/burnhams-catering/static/js/main.bf281879.js.map",
     "787.b4a9067d.chunk.js.map": "/burnhams-catering/static/js/787.b4a9067d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ddac1fd.css",
-    "static/js/main.a7642399.js"
+    "static/css/main.358913a2.css",
+    "static/js/main.bf281879.js"
   ]
 }
