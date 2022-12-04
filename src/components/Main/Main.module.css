@@ -1,7 +1,7 @@
 .main{
     height: 90%;
     width: 100%;
-    border: 5px solid #52B4F1;
+    border: 5px solid darkgreen;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
