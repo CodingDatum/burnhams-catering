@@ -22,12 +22,14 @@
 }
 
 .close{
+    height: 2.2rem;
+    width: 2.2rem;
     background-color: green;
     border: 1px solid white;
     color: white;
     position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 0.25rem 0.5rem;
-    padding-top: 0.15srem;
+    top: 15px;
+    right: 15px;
+    padding: 0.25rem;
+    text-align: center;
 }
