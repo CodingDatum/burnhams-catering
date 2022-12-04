@@ -14,7 +14,7 @@ const NavCol = props => {
             <span>Trsting</span>
             <span>Trsting</span>
             <span>Trsting</span>
-            <span className={styles.close} onClick={closeNavCol}>x</span>
+            <span className={styles.close} onClick={closeNavCol}>X</span>
         </div>
     )
 }
