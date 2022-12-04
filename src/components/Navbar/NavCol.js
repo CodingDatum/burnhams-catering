@@ -14,7 +14,7 @@ const NavCol = props => {
             <span>Trsting</span>
             <span>Trsting</span>
             <span>Trsting</span>
-            <span className={styles.testing} onClick={closeNavCol}>TEMPORARY CLOSE BUTTON</span>
+            <span className={styles.close} onClick={closeNavCol}>x</span>
         </div>
     )
 }
