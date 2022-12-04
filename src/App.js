@@ -9,13 +9,13 @@ import NavCol from './components/Navbar/NavCol';
 
 const App = props => {
 
-  // have a useState for navbar too! and shall we make it a column or an extension of the navbar that already exists
+// -----THESE ARE THE 3 MAIN PAGES/EXTENSIONS FOR THE MAIN SITE-----
 
   const [staffIsOpen, setStaffIsOpen] = useState(false);
   const [eventsIsOpen, setEventsIsOpen] = useState(false);
   const [navColIsOpen, setNavColIsOpen] = useState(false);
 
-  // RENDERING (and closing) STAFF PAGE AND EVENT PAGE
+  // RENDERING (and closing) STAFF PAGE AND EVENT PAGE AND NAVCOL
 
   const renderStaffPage = () => {
     setStaffIsOpen(true);
@@ -49,7 +49,7 @@ const App = props => {
       {eventsIsOpen && <EventsPage closeEventsPage={closeEventsPage} />}
       {navColIsOpen && <NavCol closeNavCol={closeNavCol} />}
       <div className={styles.main}>
-        <Navbar renderNavCol={renderNavCol} />
+        <Navbar renderNavCol={renderNavCol} navColIsOpen={navColIsOpen} />
         <Main renderStaffPage={renderStaffPage} renderEventsPage={renderEventsPage} />
       </div>
     </React.Fragment>

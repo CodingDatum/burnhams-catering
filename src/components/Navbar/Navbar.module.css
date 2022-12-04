@@ -15,7 +15,7 @@
     font-size: 1.6rem;
 }
 
-.hamburger{
+.hamburger-open, .hamburger-squish{
     height: 1.2rem;
     width: 2rem;
     display: flex;
@@ -23,8 +23,28 @@
     justify-content: space-between;
 }
 
-.hamburger span{
+.hamburger-open{
+    animation: spin 0.8s ease forwards;
+}
+
+@keyframes spin{
+    to{
+        transform: rotate(720deg)
+    }
+}
+
+.hamburger-open span, .hamburger-squish span{
     height: 3px;
     width: 100%;
     background-color: white;
+}
+
+.hamburger-squish{
+    animation: squish 0.5s ease forwards;
+}
+
+@keyframes squish{
+    to{
+        height: 0rem;
+    }
 }
