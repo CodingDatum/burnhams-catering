@@ -10,7 +10,7 @@ const StaffPage = props => {
     }
 
     return (
-        <MainTab>
+        <MainTab styleType="staff">
             <h2>Testing Staff Page</h2>
             <Buttons onClick={closeStaffPage} buttonText="back" />
         </MainTab>

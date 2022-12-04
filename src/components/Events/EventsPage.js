@@ -9,7 +9,7 @@ const EventsPage = props => {
     }
 
     return (
-        <MainTab>
+        <MainTab styleType="events">
             <h2>Testing Staff Page</h2>
             <Buttons onClick={closeEventsPage} buttonText="back" />
         </MainTab>
